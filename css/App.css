@@ -327,8 +327,16 @@ hr{
    display: none;
 }
 
-.slogan{
-  font-size: 30px;
+.caroussel_slogan{
+  font-size: 25px;
+}
+
+.carousel_title{
+   font-size: 30px;
+}
+
+.carousel_text{
+   font-size: 20px;
 }
 
 .products{
@@ -367,8 +375,16 @@ hr{
       margin-top: 20px;
    }
 
-   .slogan{
-      font-size: 18px;
+   .caroussel_slogan{
+     font-size: 15px;
+   }
+
+   .carousel_title{
+      font-size: 20px;
+   }
+
+   .carousel_text{
+      font-size: 15px;
    }
 
 }
