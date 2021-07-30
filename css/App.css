@@ -307,6 +307,43 @@ hr{
 }
 
 
+.wencome_section{
+  height: 400px;
+  background-size: contain;
+    margin-top: 40px;
+}
+
+.carousel_bg_flou{
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   bottom: 0%;
+   top: 0%;
+   background-color: rgba(0,0,0, 0.3);
+}
+
+.carousel img {
+   max-height: 350px;
+   display: none;
+}
+
+.slogan{
+  font-size: 30px;
+}
+
+.products{
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+  grid-gap: 15px;
+  gap: 15px;
+}
+
+.product{
+  background-color: rgba(0,0,200, 0.5);
+  height: 300px
+}
+
+
 @media screen and (max-width: 1000px){
 
    .app_main{
@@ -323,6 +360,15 @@ hr{
 
    .mobile_element{
       display: block;
+   }
+
+   .wencome_section{
+      height: 200px;
+      margin-top: 20px;
+   }
+
+   .slogan{
+      font-size: 18px;
    }
 
 }

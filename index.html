@@ -1,13 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Doulimmo</title>
-</head>
-<body>
+<html lang="fr">
+  
+  	<head>
 
-	<h1>Bienvennue chez Doulimmo</h1>
-	
-</body>
+	    <meta charset="utf-8">
+
+	    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      	<meta http-equiv="Pragma" content="no-cache">
+      	<meta http-equiv="Expires" content="0">
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	    <meta name="description" content="Agence immobilière">
+	    
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="#0069d9">
+	    <meta name="apple-mobile-web-app-title" content="MKmowil">
+	        
+	    <meta name="msapplication-TileColor" content="#0069d9">
+	    <meta name="theme-color" content="#0069d9"> 
+	    
+	    <!-- bootstrap -->
+	    <link href="./css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    
+	    <script src="./js/jquery.js' ?>"></script>
+	    
+	    <link rel="stylesheet" type="text/css" href="./css/App.css">
+
+
+	    <meta name="description" content="Ventes immobilières">
+	    <meta name="author" content="Idriss Wagoum Takuété">
+	    <meta name="generator" content="Hugo 0.84.0">
+	    <title>Doulimmo</title>
+
+	    <style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	        -webkit-user-select: none;
+	        -moz-user-select: none;
+	        user-select: none;
+	      }
+
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+
+	</head>
+
+  	<body>
+    
+		<header class="site-header sticky-top py-1">
+		  
+		  	<nav class="container d-flex flex-column flex-md-row justify-content-between">
+			    <a class="py-2" href="#" aria-label="Bienvenue">
+			      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+			    </a>
+			    <a class="py-2 d-none d-md-inline-block" href="#">Bienvenue</a>
+			    <a class="py-2 d-none d-md-inline-block" href="#products">Nos produits</a>
+			    <a class="py-2 d-none d-md-inline-block" href="#about">À propos de nous</a>
+			    <a class="py-2 d-none d-md-inline-block" href="#contact">Nous contacter</a>
+		  	</nav>
+
+		</header>
+
+		<div class="App">
+
+			<main class="app_main">
+
+				<div id="carouselExampleDark" class="carousel carousel-dark slide mt-4" data-bs-ride="carousel">
+				  	
+				  	<div class="carousel-indicators">
+				    	<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    	<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    	<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  	</div>
+				  
+				  	<div class="carousel-inner">
+				    	
+				    	<div class="carousel-item active" data-bs-interval="10000">
+				   
+				      		<div class="carousel_bg_flou"></div>
+
+				      		<img src="./images/caroussel_image_2.jpg" class="d-block w-100" alt="...">
+				      		
+				      		<div class="carousel-caption">
+				        		<h1 class="text-white">Doulimmo</h1>
+				        		<p class="text-white" style="font-size: 25px">Achetez et vendez vos biens immobiliers de la façon la plus simple !</p>
+				      		</div>
+
+				    	</div>
+
+					    <div class="carousel-item" data-bs-interval="2000">
+					      	<div class="carousel_bg_flou"></div>
+
+				      		<img src="./images/caroussel_image_2.jpg" class="d-block w-100" alt="...">
+				      		
+				      		<div class="carousel-caption">
+				        		<h2 class="text-white">Titre 2</h2>
+				        		<p class="text-white" style="font-size: 20px">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+				      		</div>
+					    </div>
+
+					    <div class="carousel-item">
+					      	<div class="carousel_bg_flou"></div>
+
+				      		<img src="./images/caroussel_image_2.jpg" class="d-block w-100" alt="...">
+				      		
+				      		<div class="carousel-caption">
+				        		<h2 class="text-white">Titre 3</h2>
+				        		<p class="text-white" style="font-size: 20px">Lorem, ipsum dolor, sit amet consectetur adipisicing.</p>
+				      		</div>
+					    </div>
+
+				  	</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					</button>
+					
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					</button>
+
+				</div>
+
+				<div id="products"></div>
+
+				<br/><br/>
+
+
+				<div class="products_section" id="products_section">
+
+				    <h2 class="ou_separation">
+				        <span class="trait_1"></span>
+				        <span class="ou" style="min-width: 250px">Nos produits</span>
+				        <span class="trait_1"></span>
+				    </h2>
+
+				    <br/>
+
+				    <div class="products">
+				    
+				        <div class="product">1</div>
+				        <div class="product">2</div>
+				        <div class="product">3</div>
+				        <div class="product">4</div>
+				        <div class="product">5</div>
+				        <div class="product">6</div>
+
+				    </div>
+
+				</div>
+
+				<div id="about"></div>
+
+				<br/><br/>
+
+				<div class="about_section" id="about_section">
+
+				    <h2 class="ou_separation">
+				        <span class="trait_1"></span>
+				        <span class="ou" style="min-width: 350px">À propos de nous</span>
+				        <span class="trait_1"></span>
+				    </h2>
+
+				    <br/>
+
+				    <div class="about_us">
+				    
+				        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa natus dolor aliquam vero, ut magnam illum voluptas, quod reprehenderit. Placeat voluptate, quis tempora! Harum voluptas praesentium dolorem corrupti doloribus hic sunt voluptatibus sint saepe exercitationem quod nostrum temporibus excepturi maiores incidunt expedita obcaecati dicta libero, voluptate alias repellendus corporis placeat vitae. Repellat accusantium iure expedita porro cum ex rem, libero accusamus earum unde nesciunt voluptatibus reprehenderit hic non voluptates laborum aperiam? Sit voluptatibus quasi perspiciatis laboriosam, molestiae autem, corrupti totam vel aspernatur recusandae nam sed debitis doloribus, rerum iure, molestias soluta? Sit mollitia, beatae quidem vero harum voluptate necessitatibus molestiae nobis ex doloribus recusandae minus aperiam delectus sint cupiditate nihil, provident voluptatibus soluta neque odit esse sequi atque suscipit reiciendis autem! Fugiat doloremque, laudantium ullam suscipit quia voluptatibus cumque aspernatur ab rem, ratione repudiandae eius sunt est mollitia ducimus, ipsum, facilis. Nihil debitis fugiat sint laborum tenetur incidunt, eum, molestias, alias id veniam consectetur dicta nostrum mollitia in aliquam temporibus velit repellendus adipisci ut. Ab nesciunt soluta velit assumenda sequi debitis repudiandae vero cumque doloribus eveniet perspiciatis blanditiis accusamus, laborum labore error libero nisi ipsam, aspernatur voluptatem laboriosam ipsa, odit voluptates, obcaecati magnam quo. Rem numquam illum mollitia, perspiciatis!
+
+				    </div>
+
+				</div>
+
+				<div id="contact"></div>
+
+				<br/><br/>
+
+				<div class="contact_section" id="contact_section">
+
+				    <h2 class="ou_separation">
+				        <span class="trait_1"></span>
+				        <span class="ou" style="min-width: 300px">Nous contacter</span>
+				        <span class="trait_1"></span>
+				    </h2>
+
+				    <br/>
+
+				    <div class="contact_us">
+
+				        Vous pouvez nous joindre grâce aux coordonnées suivantes : <br/>
+
+				        <table>
+				        	<tr>
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fa fa-phone"></i></td>
+				        			
+				        			<td>
+				        				: <a href="tel:+237000000000" class="text-dark">+237 600000000</a>
+				        			</td>
+				        		</tr>
+
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fa fa-envelope"></i></td>
+				        			
+				        			<td>
+				        				: <a href="mailto:doulimmo@gmail.com" class="text-dark">doulimmo@gmail.com</a>
+				        			</td>
+				        		</tr>
+				        	</tr>	
+				        </table>
+
+				        <br>
+
+				        Rétrouvez-nous sur les réseaux sociaux : <br/>
+
+				        <table>
+				        	<tr>
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fab fa-facebook-f"></i></td>
+				        			
+				        			<td>
+				        				: <a href="sttps://fb.me/doulimmo" class="text-dark" target="_blank" rel="noreferrer">@doulimmo</a>
+				        			</td>
+				        		</tr>
+
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fab fa-instagram"></i></td>
+				        			
+				        			<td>
+				        				: <a href="https://instagram.com/doulimmo" class="text-dark" target="_blank" rel="noreferrer">@doulimmo</a>
+				        			</td>
+				        		</tr>
+
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fab fa-twitter"></i></td>
+				        			
+				        			<td>
+				        				: <a href="https://twitter.com/doulimmo" class="text-dark" target="_blank" rel="noreferrer">@doulimmo</a>
+				        			</td>
+				        		</tr>
+
+				        		<tr>
+				        			<td style="padding-right: 10px"><i class="fab fa-whatsapp"></i></td>
+				        			
+				        			<td>
+				        				: +237 600000000
+				        			</td>
+				        		</tr>
+
+				        	</tr>	
+				        </table>	
+
+				    </div>
+
+				</div>
+
+
+			</main>
+
+			<footer class="app_footer py-4">
+
+				<div class="footer_container text-center">
+
+					<div class="footer_medias_links">
+	                    <a href='https://fb.me/doulimmo' target='_blank' rel='noreferrer' title="Page Facebook"><i class="fab fa-facebook-f"></i></a>
+	                    <a href='https://www.twitter.com/doulimmo' target='_blank' rel='noreferrer' title="Compte Twitter"><i class="fab fa-twitter"></i></a>
+	                    <a href='https://www.instagram.com/doulimmo' target='_blank' rel='noreferrer' title="Page Instagram"><i class="fab fa-instagram"></i></a>
+	                    <a href='https://t.me/doulimmo_group' target='_blank' rel='noreferrer'><i class="fab fa-telegram" title="Groupe Telegram"></i></a>
+	                </div>
+
+	                <br/>
+
+	                <div style="font-size:14px">Doulimmo &#169; <?= date('Y') ?> </div>
+	                
+	                <br/>
+
+	                <div class="footer_policies_links">
+	                    <a href="#" title="Bienvenue" style="color: #111">Bienvenue </a> |
+	                    <a href="#products" title="Nos produits" style="color: #111"> Produits </a> |
+	                    <a href='#about' title="A propos de nous" style="color: #111">À propos de nous </a> |
+	                    <a href='#contact' title="Contact" style="color: #111">Contact</a> 
+	                </div>
+					
+
+				</div>
+
+			</footer>
+
+
+		    <script src="./css/bootstrap/js/bootstrap.bundle.min.js"></script>
+		    <link rel="stylesheet" href="./web_icons/fontawesome/css/all.css">
+
+     	</div> <!-- Fin <div class='App'> -->
+
+  	</body>
+
 </html>
