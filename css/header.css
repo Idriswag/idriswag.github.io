@@ -1,0 +1,15 @@
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #197;
+    color: white;
+}
+
+.header_bottom_space{
+    height: 70px;
+}

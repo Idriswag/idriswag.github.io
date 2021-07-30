@@ -1,0 +1,35 @@
+.wencome_section{
+	height: 400px;
+	background-size: contain;
+    margin-top: 40px;
+}
+
+.slogan{
+	font-size: 30px;
+}
+
+.products{
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+	grid-gap: 15px;
+	gap: 15px;
+}
+
+.product{
+	background-color: rgba(0,0,200, 0.5);
+	height: 300px
+}
+
+@media screen and (max-width: 750px){
+
+	.wencome_section{
+		height: 200px;
+	    margin-top: 20px;
+	}
+
+   .slogan{
+		font-size: 18px;
+	}
+
+}
+
